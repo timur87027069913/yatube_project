@@ -3,7 +3,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('Главная страница')
+    return HttpResponse('Ты <i>не можешь</i> получить правильные <b>ответы</b>,<br> '
+        'если у тебя нет правильных <s>вопросов</s> запросов.')
 
 
 # Страница со списком Сообщения
