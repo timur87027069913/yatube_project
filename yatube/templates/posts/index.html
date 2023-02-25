@@ -1,7 +1,8 @@
 <!DOCTYPE html> <!-- Используется html 5 версии -->
 <html lang="ru"> <!-- Язык сайта - русский -->
-  <head>    
-    {% include 'includes/header.html' %}
+  <head>
+    {% include "includes/header.html" with greeting="Последние обновления на сайте" %}
+    <link rel="stylesheet" href="templates/posts/css/bootstrap.min.css">
   </head>
   <body>
     <main> 

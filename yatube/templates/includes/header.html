@@ -12,19 +12,21 @@
     <meta name="msapplication-TileColor" content="#000">
     <meta name="theme-color" content="#ffffff">
     <!-- Подключен файл со стандартными стилями бустрап -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Последние обновления на сайте</title>
+    <link rel="stylesheet" href="templates/posts/css/bootstrap.min.css">
+    <title>{{ greeting }}</title>
   </head>
 
-  <body> 
-    <nav class="navbar navbar-light" style="background-color: lightskyblue">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          <!-- тег span используется для добавления нужных стилей отдельным участкам текста -->
-          <span style="color:red">Ya</span>tube
-        </a>
-      </div>
-    </nav>
-  </body> 
+  <body>
+    <header>
+      <nav class="navbar navbar-light" style="background-color: lightskyblue">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <!-- тег span используется для добавления нужных стилей отдельным участкам текста -->
+            <span style="color:red">Ya</span>tube
+          </a>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
